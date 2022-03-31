@@ -1,0 +1,12 @@
+[Error]: [System.Int32] : kapec int perepolnen. Arithmetic operation resulted in an overflow.
+[Warning]: [System.Int32] : int skoro perepolnitsya!!
+[Info]: [System.Int32] : int zhiv
+[Error]: [System.Int32] : kapec int perepolnen. Arithmetic operation resulted in an overflow.
+[Warning]: [System.Int32] : int skoro perepolnitsya!!
+[Info]: [System.Int32] : int zhiv
+[Error]: [System.Int32] : kapec int perepolnen. Arithmetic operation resulted in an overflow.
+[Warning]: [System.Int32] : int skoro perepolnitsya!!
+[Info]: [System.Int32] : int zhiv
+[Error]: [System.Int32] : kapec int perepolnen. Arithmetic operation resulted in an overflow.
+[Warning]: [System.Int32] : int skoro perepolnitsya!!
+[Info]: [System.Int32] : int zhiv

@@ -1,0 +1,3 @@
+[Error]: [System.Collections.Generic.List`1[System.Char]] : Type Error — nodumal Stirlitz.... Type error
+[Warning]: [System.Collections.Generic.List`1[System.Char]] : Max lisst length will be reached soon
+[Info]: [System.Collections.Generic.List`1[System.Char]] : No errors detected yet..

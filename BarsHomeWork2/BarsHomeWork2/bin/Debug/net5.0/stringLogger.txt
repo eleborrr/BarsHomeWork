@@ -1,0 +1,3 @@
+[Error]: [System.String] : BbI Nanisali nloxoe clovo. Bad Word exception
+[Warning]: [System.String] : Don't forget to check gramma!!!
+[Info]: [System.String] : All works fine!

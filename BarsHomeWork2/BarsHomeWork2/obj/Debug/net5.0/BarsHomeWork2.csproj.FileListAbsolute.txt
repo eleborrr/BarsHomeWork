@@ -1,0 +1,16 @@
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\bin\Debug\net5.0\BarsHomeWork2.exe
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\bin\Debug\net5.0\BarsHomeWork2.deps.json
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\bin\Debug\net5.0\BarsHomeWork2.runtimeconfig.json
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\bin\Debug\net5.0\BarsHomeWork2.runtimeconfig.dev.json
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\bin\Debug\net5.0\BarsHomeWork2.dll
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\bin\Debug\net5.0\ref\BarsHomeWork2.dll
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\bin\Debug\net5.0\BarsHomeWork2.pdb
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\BarsHomeWork2.csproj.AssemblyReference.cache
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\BarsHomeWork2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\BarsHomeWork2.AssemblyInfoInputs.cache
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\BarsHomeWork2.AssemblyInfo.cs
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\BarsHomeWork2.csproj.CoreCompileInputs.cache
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\BarsHomeWork2.dll
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\ref\BarsHomeWork2.dll
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\BarsHomeWork2.pdb
+C:\Users\this_\source\repos\BarsHomeWork2\BarsHomeWork2\obj\Debug\net5.0\BarsHomeWork2.genruntimeconfig.cache
