@@ -1,4 +1,4 @@
-﻿using static MultiThreadingTask.Requester;
+using static MultiThreadingTask.Requester;
 using System.Threading;
 
 namespace MultiThreadingTask
@@ -10,8 +10,8 @@ namespace MultiThreadingTask
             Console.WriteLine("Приложение запущено");
 
 
-            var handler = new Handler();
-            
+            var handler = new DummyRequestHandler();
+
             var command = "";
 
             while (command != "/exit")
@@ -29,29 +29,20 @@ namespace MultiThreadingTask
                     arg = Console.ReadLine();
                 }
                 Console.WriteLine($"Было послано сообщение \'{command}\'. Присвоен идентификатор {id}");
-                ThreadPool.QueueUserWorkItem(callback => Console.WriteLine($"Сообщение с идентификатором {id} {handler.HandleRequest(command, _args.ToArray())}"));
-            }
-        }
-        
-    }
-
-    public class Handler : IRequestHandler
-    {
-        public string HandleRequest(string message, string[] arguments)
-        {
-            try
-            {
-                Thread.Sleep(1000);
-                if (arguments.Contains("упади"))
+                ThreadPool.QueueUserWorkItem(callback =>
                 {
-                    throw new Exception("Я упал, как сам просил");
+                    try
+                    {
+                        Console.WriteLine($"Сообщение с идентификатором {id} получило ответ - {handler.HandleRequest(command, _args.ToArray())}");
+                    }
+                    catch(Exception ex)
+                    {
+                        Console.WriteLine($"Сообщение с идентификатором {id} упало с ошибкой: {ex.Message}");
+                    }
                 }
-                return $"— получило сообщение { Guid.NewGuid().ToString("D")}";
-            }
-            catch(Exception ex)
-            {
-                return $"упало с сообщением {ex.Message}";
+                );
             }
         }
+
     }
 }
