@@ -19,7 +19,7 @@ namespace MultiThreadingTask
             /// <param name="message">Сообщение.</param>
             /// <param name="arguments">Аргументы запроса.</param>
             /// <returns>Результат выполнения запроса.</returns>
-            public string HandleRequest(string message, string[] arguments);
+            string HandleRequest(string message, string[] arguments);
         }
 
 
